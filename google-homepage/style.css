@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* top nav styling */
+nav ul {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: 25px;
+  list-style-type: none;
+}
+#logo1, #logo2, #logo3 {
+  opacity: 0.6;
+}
+#logo1:hover, #logo2:hover, #logo3:hover {
+  opacity: 1;
+}
+#logo2 img{
+  width: 22px;
+  height: 22px;
+}
+#logo3 img {
+  width: 32px;
+  height: 32px;
+}
+nav a {
+  color: #494949;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 0.8em;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a:visited {
+  color: #494949;
+}
+nav ul li {
+  margin: 9px 7px;
+}
+
+/* body styling */
+.main-body {
+  clear: both;
+  width: 100%;
+}
+.google-logo {
+  width: 50%;
+  padding-top: 120px;
+  margin: 0 auto;
+}
+.google-logo h1 {
+  background-image: url('images/googlelogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+  height:92px;
+  width: 272px;
+  margin: 0 auto;
+}
+.google-logo h4 {
+  font-weight: 100;
+  font-size: 17px;
+  font-family: arial, sans-serif;
+  bottom: 20px;
+  left: 115px;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  color: #6BA7F7;
+}
+.search-bar {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+#search {
+  width:100%;
+  padding: 13px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #c6c6c6;
+}
+#search:hover {
+  box-shadow: 2px 3px 4px #c6c6c6;
+  -webkit-transition: 0.2s ease-in;
+}
+input[type='submit'] {
+  padding: 13px;
+  background-color: #F4F4F4;
+  margin: 3px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color:#565656;
+  font-weight: bold;
+  border-radius: 2px;
+  border: 1px solid #F4F4F4;
+  opacity: 0.7;
+}
+input[type='submit']:hover {
+  border: 1px solid #757575;
+  opacity: 1;
+  -webkit-transition: 0.05s ease-in;
+}
+.buttons {
+  position: relative;
+  top: 20px;
+}
+p {
+  padding-top: 20px;
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: #333333;
+}
+p a {
+  text-decoration: none;
+  margin:2px;
+}
+p a:hover {
+  text-decoration: underline;
+}
+
+/* footer styling */
+footer {
+  width: 100%;
+  position: fixed;
+  background-color: #F2F2F2;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: grey;
+  bottom: 0;
+}
+footer ul {
+  padding: 3px;
+  list-style-type: none;
+}
+footer ul li {
+  display: inline;
+  padding-left: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer a:visited {
+  text-decoration: none;
+}
+#ul1 {
+  float: left;
+}
+#ul2 {
+  padding-right: 20px;
+  float: right;
+}
