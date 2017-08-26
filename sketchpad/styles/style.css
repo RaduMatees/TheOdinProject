@@ -2,8 +2,13 @@ body {
   background-color: #bee5e2;
 }
 .square {
-  background-color: red;
-  display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    outline: 1px solid;
+    display: inline-block;
+    float: left;
+    background: #FFFFFF;
 }
 #input-grid {
   text-align: center;
@@ -15,12 +20,17 @@ body {
   color: #eb5a26;
 }
 .container {
-  width: 50%;
+  width: 500px;
   height: 500px;
   border: 1px solid black;
   margin: 0 auto;
 }
-#button{
+.row {
+  width: auto;
+  height: 50px;
+  background: #313131;
+}
+#button, #clear-button{
   display: inline-block;
   height:20px;
 	width:70px;
@@ -31,4 +41,6 @@ body {
 	border-radius: 5px;
 	text-align:center;
 	margin-top:2px;
+  cursor: pointer;
+  display: inline-block;
 }
