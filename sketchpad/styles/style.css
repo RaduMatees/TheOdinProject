@@ -28,7 +28,6 @@ body {
 .row {
   width: auto;
   height: 50px;
-  background: #313131;
 }
 #button, #clear-button{
   display: inline-block;
