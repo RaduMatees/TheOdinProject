@@ -1,45 +1,60 @@
 body {
-  background-color: #bee5e2;
+  background-color: #d0e8e6;
+  margin: 0;
 }
 .square {
     width: 50px;
     height: 50px;
     margin: 0px;
-    outline: 1px solid;
     display: inline-block;
     float: left;
     background: #FFFFFF;
 }
 #input-grid {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 10px 0px;
 }
 #title {
   font-family: 'Shadows Into Light', cursive;
   font-size: 2.5em;
   color: #eb5a26;
+  margin: 0;
 }
 .container {
+  display: inline-block;
   width: 500px;
   height: 500px;
-  border: 1px solid black;
+  position: absolute;
+  left:30%;
   margin: 0 auto;
+  border: 20px solid #eb5a26;
+  box-shadow: 10px 10px 5px #888888;
 }
 .row {
   width: auto;
   height: 50px;
 }
-#button, #clear-button{
+#buttons-container {
+  position: absolute;
+  left: 20%;
+  height: 500px;
+  width: 10%;
   display: inline-block;
-  height:20px;
-	width:70px;
-	background-color:#cc0000;
+}
+#button, #clear-button, #rainbow-button, #classic-button, #eraser-button{
+  display: block;
+  height:30px;
+	width:100px;
+	background-color:#8DC8C4;
 	font-family:arial;
 	font-weight:bold;
+  padding-top: 12px;
 	color:#ffffff;
 	border-radius: 5px;
 	text-align:center;
-	margin-top:2px;
   cursor: pointer;
-  display: inline-block;
+  margin-bottom: 30px;
+}
+#button:hover, #clear-button:hover, #rainbow-button:hover, #classic-button:hover, #eraser-button:hover{
+  background-color: #599E99;
 }
