@@ -1,1 +1,1 @@
-JavaScript answers to solving problems on ProjectEuler
+JavaScript and Ruby answers to solving problems on ProjectEuler
